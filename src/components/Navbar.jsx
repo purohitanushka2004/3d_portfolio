@@ -10,6 +10,7 @@ const Navbar = () => {
     { id: 'about', title: 'About', url: '/about' },
     { id: 'work', title: 'Work', url: '/work' },
     { id: 'contact', title: 'Contact', url: '/contact' },
+    // { id: 'Resume', title: 'Resume', url: '/resume' },
     // Add other link objects as needed
   ];
 
