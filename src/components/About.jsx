@@ -44,15 +44,16 @@ const About = () => {
       </motion.div>
 
       <motion.p
-        variants={fadeIn("", "", 0.1, 1)}
-        className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
-      >
-        I'm a skilled software developer with experience in TypeScript and
-        JavaScript, and expertise in frameworks like React, Node.js, and
-        Three.js. I'm a quick learner and collaborate closely with clients to
-        create efficient, scalable, and user-friendly solutions that solve
-        real-world problems. Let's work together to bring your ideas to life!
-      </motion.p>
+  variants={fadeIn("", "", 0.1, 1)}
+  className='mt-4 text-secondary text-[17px] max-w-full leading-[30px] px-4 sm:px-8'
+>
+  I am an aspiring software developer currently pursuing a B.Tech in Computer Science at Graphic Era Hill University, where I have developed a strong foundation in programming languages such as Java, C++, and JavaScript. My passion for web development, especially in front-end technologies, is evident through my hands-on experience with HTML, CSS, ReactJS, and Redux.
+
+  I have also delved into backend technologies with Node.js, and I am proficient in integrating complex functionalities to build scalable and user-friendly applications. My experience extends to working with TypeScript and frameworks like Three.js, which enhances my ability to deliver seamless and dynamic user interfaces.
+
+  Driven by a desire to continually learn and grow, I thrive on tackling challenging projects and internships that push my technical skills further. I am adept at collaborating closely with clients to create efficient solutions that address real-world problems. Let's connect and explore how we can bring your ideas to life with innovative and impactful software solutions!
+</motion.p>
+
 
       <div className='mt-20 flex flex-wrap gap-10'>
         {services.map((service, index) => (
